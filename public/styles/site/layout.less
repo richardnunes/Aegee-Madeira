@@ -1,0 +1,61 @@
+#fb-root {
+  display: none;
+}
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+
+#nav {
+  .top-bar {
+    background: @aegee-dark-grey;
+    .top-bar-section {
+
+      li.active:not(.has-form) a:not(.button) {
+        background: @aegee-dark-grey;
+        color: @aegee-light-blue;
+      }
+      
+      li:not(.has-form) a:not(.button) {
+        background: @aegee-dark-grey;
+        color: #FFF;
+      }
+      li:not(.has-form) a:not(.button):hover {
+        background: @aegee-dark-grey;
+        color: @aegee-light-blue;
+      }
+    }
+  }
+}
+
+.tab-bar {
+  background: @aegee-dark-grey!important;
+}
+.left-off-canvas-menu {
+  background: rgba(238, 238, 238, 0)!important;
+  background-image: url("/images/back-wh-mobile.png")!important;
+  background-repeat: no-repeat;
+  background-position: 118% 64%;
+  background-size: cover;
+  
+  .off-canvas-list {
+    li{
+      background: #f9f9f9!important;
+      label {
+        color: #fff;
+        background: @aegee-dark-blue;
+        border-top: 0px solid #6D6D6D;
+      }
+    a {
+      color: @aegee-dark-grey;
+      border-bottom: 1px solid #E4E4E4;
+    }
+    a:hover {
+      color: @aegee-blue;
+      background: #E7E7E7;
+      border-bottom: 1px solid #DDDDDD;
+    }
+      
+    }
+  }
+}  

@@ -1,0 +1,303 @@
+body {
+  background: #f8f8f8!important;
+}
+
+#header {
+  margin-top: 30px;
+}
+
+
+#content {
+  margin: 26px 0 30px;
+  padding-bottom: 22px;
+}
+
+.blog {
+  .title {
+    color: white;
+    padding: 4px 10px;
+    background-color: @aegee-purple;
+  }
+  .post {
+    background-color: #FFF;
+    padding: 10px 25px 0;
+    border: 3px solid #F5F5F5;
+    margin-bottom: 20px;
+    
+    .date{
+      font-size: 12px;
+      display: inline;
+    }
+    .author {
+      display: inline;
+      font-size: 12px;
+      .author-name{
+        display: inline;
+        font-size: 12px;
+        font-weight: 900;
+      }
+    }
+    
+    p {
+      span {
+        font-family: inherit!important;
+        font-size: 14px!important;
+        line-height: inherit!important;
+        text-align: inherit!important;
+      }
+    }
+    
+    
+    img {
+      float: right;
+      padding: 0;
+      border-radius: 4px;
+      margin: 0 10px;
+    }
+  }
+  
+  .categories {
+    padding: 2em 0 0.9375em 0;
+    h3 {
+      color: white;
+      padding: 4px 10px;
+      background-color: @aegee-green;  
+    }
+    ul {
+      list-style-type: none;
+      margin-top: 10px;
+    }
+  }
+
+}
+
+.about {
+  .title{
+    color: white;
+    padding: 4px 10px;
+    background-color: @aegee-green;
+  }
+  .means {
+    color: white;
+    padding: 10px;
+    background-color: @aegee-blue;
+  }
+  .mean {
+    overflow: auto;
+
+    h2, h3, h4 {
+      color: white;
+      padding: 6px;
+    }
+
+    .vision, .mission {
+      background-color: @aegee-blue;
+    }
+    .exchange {
+      background-color: @aegee-orange;
+    }
+    .education {
+      background-color: @aegee-red;
+    }
+    .projects {
+      background-color: @aegee-green;
+    }
+    .advocacy {
+      background-color: @aegee-purple;
+    }
+    .forum {
+      background-color: @aegee-blue;
+    }
+
+    p {
+      padding: 0 20px;
+      text-indent: 40px;
+    }
+
+    img {
+      float: right;
+      width: 45%;
+      margin: 5px 15px;
+      border-radius: 3px;
+    }
+  }
+  .more-info-box {
+    background: #fff;
+    border-radius: 3px;
+    padding: 25px;
+    box-shadow: 5px 5px 10px 1px #E2E2E2;
+    img {
+      width: 80%;
+      max-width: 200px;
+    }
+    h2 {
+      color: @aegee-blue
+    }
+  }
+}
+
+.mapa-rede {
+  .title{
+    color: white;
+    padding: 8px;
+    background-color: @aegee-green;
+  }
+  .becoming-member {
+    color: white;
+    padding: 8px;
+    background-color: @aegee-purple;
+  }
+}
+
+.projectos{
+  .title {
+    color: white;
+    padding: 8px;
+    background-color: @aegee-purple;
+  }
+  .sub-title {
+    color: white;
+    padding: 8px;
+    background-color: @aegee-green;
+  }
+  p{
+    padding: 0 20px;
+  }
+    .elements{
+      margin-bottom: 30px;
+      .element{
+        text-align: center;
+        margin: 0 auto;
+        padding: 25px 80px;
+        background-color: @aegee-light-green;
+      }
+    }
+}
+
+.grupos {
+  .title {
+    color: white;
+    padding: 8px;
+    background-color: @aegee-dark-red;
+  }
+  p {
+    padding: 0 20px;
+  }
+  .groups {
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+}
+
+.faq {
+  .title {
+    color: white;
+    padding: 8px;
+    background-color: @aegee-orange;
+  }
+  .accordion{
+    dd {
+      a {
+        background: @aegee-orange;
+        color: @aegee-dark-blue;
+        font-weight: bold;
+      }
+      a:hover {
+        background: @aegee-light-orange;
+      }  
+    }
+    .active {
+      a{background: @aegee-light-orange;}
+      
+    }
+  }
+  .contact-us {
+    padding: 20px 0 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+.summeruni {
+  .title {
+    color: white;
+    padding: 8px;
+    background-color: @aegee-green;
+  }
+  div {
+    img {
+      //float: right;
+      //margin: 0 0 12px 20px;
+
+      float: left;
+      width: 33rem;
+      margin: 0 20px 12px 0;
+      border-radius: 6px;
+    }
+    p {
+      text-indent: 40px;
+    }
+  }
+}
+.contact_title {
+  background: #a8c342;
+  h1 {
+    color: #fff;
+    
+  }
+}
+
+.contact {
+  background-color: #FFF;
+  padding: 20px 0 0;
+  margin-top: 20px;
+  border-radius: 3px;
+  
+  form{
+    padding: 20px 30px 0;
+    .form-group {
+      select {
+        background-color: white;
+      }
+    }
+  }
+  h3 {
+    margin: 20px 0 36px;
+  }
+}
+
+@media all and (min-width: 64.063em) {
+  .sidebar {
+    height: 100%;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    background-color: @aegee-blue;
+    background-image: url("/images/back.png");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: cover;
+
+    img{
+      width: 100%;
+      padding: 192px 0 0;
+    }
+    .line {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+    }
+  }
+}
+
+
+
+#footer {
+  margin-top: 30px;
+  border-top: 1px solid @gray-lighter;
+  padding-top: 30px;
+  color: @gray-light;
+}

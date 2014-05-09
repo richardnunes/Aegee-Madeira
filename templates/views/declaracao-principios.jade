@@ -1,0 +1,9 @@
+extends ../layouts/default
+block content
+    .row.text-justify: .medium-8.medium-offset-2.columns
+        h3 !{locals.info.title1}
+        p !{locals.info.text1}
+        p !{locals.info.text2}
+        h3 !{locals.info.title2}
+        each element in locals.info.principals
+            p!= element

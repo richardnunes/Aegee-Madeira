@@ -1,0 +1,59 @@
+extends ../layouts/default
+block content
+    .row.text-justify.about
+        h2.title !{locals.info.main_title}
+        .row
+            .medium-12.columns.mean
+                img(src="#{locals.info.sobre_img}")
+                p.lead !{locals.info.intro_text}
+
+        .row
+            .medium-6.columns.mean
+                h3.vision !{locals.info.vision_title}
+                img(src="#{locals.info.vision_img}")
+                p !{locals.info.vision_text}
+
+
+            .medium-6.columns.mean
+                h3.mission !{locals.info.mission_title}
+                img(src="#{locals.info.mission_img}")
+                p !{locals.info.mission_text}
+
+        h3.means Meios
+        .row
+            .medium-6.columns.mean
+                h4.exchange !{locals.info.exchange_title}
+                img(src="#{locals.info.exchange_img}")
+                p !{locals.info.exchange_text}
+
+
+            .medium-6.columns.mean
+                h4.education !{locals.info.education_title}
+                img(src="#{locals.info.education_img}")
+                p !{locals.info.education_text}
+
+
+        .row
+            .medium-6.columns.mean
+                h4.projects !{locals.info.projects_title}
+                img(src="#{locals.info.projects_img}")
+                p !{locals.info.projects_text}
+
+
+            .medium-6.columns.mean
+                h4.advocacy !{locals.info.advocacy_title}
+                img(src="#{locals.info.advocacy_img}")
+                p !{locals.info.advocacy_text}
+
+        .row
+            .medium-6.medium-offset-3.columns.mean
+                h4.forum !{locals.info.forum_title}
+                img(src="#{locals.info.forum_img}")
+                p !{locals.info.forum_text}
+        hr
+        .row.more-info-box.text-center
+            .medium-8.columns
+                h2 Para mais informações podes consultar <a target="_blank" href="http://www.aegee.org">aqui</a> o site oficial da AEGEE Europe
+            .medium-4.columns
+                a(href="http://www.aegee.org", target="_blank")
+                    img(src="/images/AEGEE-logo.png")

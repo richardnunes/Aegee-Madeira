@@ -1,0 +1,20 @@
+extends ../layouts/default
+block content
+    .row: .medium-10.medium-offset-1.columns.faq
+        h1.text-center.title !{locals.info.title}
+        each faq, i in locals.info.faq_grupo
+            dl.accordion(data-accordion)
+                if i == 0
+                    dd.active
+                        a(href="#panel#{i}") !{faq.q}
+                        div(id="panel#{i}").content.active
+                                p !{faq.a}
+                else
+                    dd
+                        a(href="#panel#{i}") !{faq.q}
+                        div(id="panel#{i}").content
+                                p !{faq.a}
+        .row: .medium-10.medium-offset-1.columns.text-center
+            h3.contact-us !{locals.info.contact}
+            a.button(href="/contact") Contacta-nos
+        
